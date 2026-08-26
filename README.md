@@ -1,8 +1,10 @@
-# 中国网储系统性学习手册 (energy_book)
+# 中国网储系统性学习手册 (energy-book)
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/Version-v3.6-green.svg)
 ![Build Status](https://img.shields.io/badge/Deploy-GitHub%20Pages-orange.svg)
+
+**在线阅读**：[https://jmocoder.github.io/energy-book/](https://jmocoder.github.io/energy-book/)
 
 > **从零基础到网储专家与资产管理者** —— 涵盖电能基础、电力系统、电力市场、电化学、储能设备、系统工程、商业投资与前沿技术 8 大模块 + 6 大实战专题（看懂电费单、网储投建全流程、电力市场化交易、投后与运维监督、项目与基金测算、合规合同与风控），全书共 **352 个独立章节**，正文约 **200 万字**。
 
@@ -25,7 +27,7 @@
 为了保障系统拓展性与多人协作效率，本手册采用**数据与渲染分离**的目录组织结构：
 
 ```text
-energy_book/
+energy-book/
 ├── index.html                # 主导览与阅读器 portal（渲染与交互逻辑）
 ├── manifest.json             # PWA Web App Manifest 配置文件（支持桌面 Window Controls）
 ├── sw.js                     # Service Worker 离线缓存与网络响应策略
@@ -130,7 +132,7 @@ energy_book/
 1. 将代码推送到 GitHub 仓库的 `main` 分支。
 2. 打开 GitHub 仓库，进入 **Settings** -> **Pages**。
 3. 在 **Source** 下选择 **GitHub Actions**。
-4. 每次提交代码或打 Tag 之后，GitHub Actions 会自动构建并发布到 GitHub Pages 访问链接（如 `https://<your-username>.github.io/energy-book/`）。
+4. 每次提交代码或打 Tag 之后，GitHub Actions 会自动构建并发布到 GitHub Pages 访问链接（如 `https://jmocoder.github.io/energy-book/`）。
 
 ---
 
@@ -142,7 +144,7 @@ server {
     listen 80;
     server_name energy-book.yourdomain.com;
 
-    root /var/www/energy_book;
+    root /var/www/energy-book;
     index index.html;
 
     location / {
