@@ -130,7 +130,7 @@ energy_book/
 1. 将代码推送到 GitHub 仓库的 `main` 分支。
 2. 打开 GitHub 仓库，进入 **Settings** -> **Pages**。
 3. 在 **Source** 下选择 **GitHub Actions**。
-4. 每次提交代码或打 Tag 之后，GitHub Actions 会自动构建并发布到 GitHub Pages 访问链接（如 `https://<your-username>.github.io/energy_book/`）。
+4. 每次提交代码或打 Tag 之后，GitHub Actions 会自动构建并发布到 GitHub Pages 访问链接（如 `https://<your-username>.github.io/energy-book/`）。
 
 ---
 
@@ -225,7 +225,7 @@ git tag -n
 #### 3. 推送到远程 GitHub 仓库
 ```bash
 # 关联远程 Git 仓库
-git remote add origin https://github.com/JMoCoder/energy_book.git
+git remote add origin https://github.com/JMoCoder/energy-book.git
 
 # 推送代码及所有标签到 GitHub
 git push -u origin main --tags
